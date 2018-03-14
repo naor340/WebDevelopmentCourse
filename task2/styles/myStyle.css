@@ -13,7 +13,7 @@ body #reka {
 div#container {
     position: absolute;
     top: 25px;
-    left: 30%;
+    left: 20%;
     width: auto;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -45,7 +45,7 @@ div#container {
     }
 
 div#comunicate #f {
-    content: url(/images/003-facebook.png);
+    content: url(../images/003-facebook.png);
 }
 
     div#comunicate #f:hover {
