@@ -22,7 +22,7 @@ body#reka {
 
 body #reka-work {
     direction: rtl;
-    background-image: url(../images/ika.jpg);
+    background-image: url(../images/ika3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,7 +48,7 @@ body #reka-hobbies {
 
 body #reka-about {
     direction: rtl;
-    background-image: url(../images/mexico.jpg);
+    background-image: url(../images/mexico2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ body #reka-about {
 
 body #reka-studey {
     direction: rtl;
-    background-image: url(../images/peru.jpg);
+    background-image: url(../images/peru2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
