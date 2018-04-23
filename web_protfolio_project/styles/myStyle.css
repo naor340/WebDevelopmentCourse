@@ -1,0 +1,594 @@
+body {
+    direction: rtl;
+    background-color: black;
+}
+
+#page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Padding-top: 20px;
+    margin-top: -15px;
+    height: 400px;
+}
+
+    #page a:hover {
+        color: yellow;
+        padding: 5px;
+    }
+
+    #page a {
+        text-decoration: none;
+        color: #9e9595;
+        padding: 5px;
+    }
+
+#top {
+    color: white;
+    margin-right: 32%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    Padding-top: 20px;
+    position: relative;
+}
+
+    #top a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
+
+    #top #naor {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+        #top #naor:hover {
+            color: #9E9E9E;
+            background-color: black;
+        }
+
+
+    #top a:hover {
+        color: black;
+        border-radius: 5px;
+        background-color: yellow;
+    }
+
+
+    #top .currentp {
+        color: #ffe500;
+    }
+
+        #top .currentp:hover {
+            color: #ffe500b5;
+            text-decoration: none;
+            background-color: black;
+        }
+
+
+#container {
+    margin-right: 30%;
+    transform: rotate(360 deg);
+}
+
+#il img {
+    filter: drop-shadow(5px 5px 5px #fbfbfb8f);
+    transform: rotate(-25deg);
+    height: 460px;
+    position: absolute;
+    margin-right: 390px;
+    margin-top: 210px;
+}
+
+#web img {
+    filter: drop-shadow(5px 5px 5px #fbfbfb8f);
+    transform: rotate(-25deg);
+    height: 275px;
+    position: absolute;
+    margin-right: -99px;
+    margin-top: 290px;
+}
+
+#ps img {
+    filter: drop-shadow(5px 5px 5px #fbfbfb8f);
+    transform: rotate(-21deg);
+    height: 260px;
+    position: absolute;
+    margin-right: 39px;
+    margin-top: 60px;
+}
+
+#bread {
+    position: relative;
+    margin-top: 25px;
+    right: 60px;
+    width: 900px;
+    margin-right: 40%;
+    list-style-type: none;
+}
+
+    #bread nav ul li {
+        float: right;
+        color: #808080b8;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        list-style-type: none;
+    }
+
+
+
+        #bread nav ul li a {
+            text-decoration: none;
+            color: #808080b8;
+        }
+
+            #bread nav ul li a:hover {
+                text-decoration: none;
+                color: #ffff00;
+            }
+
+        #bread nav ul li:after {
+            content: "  > ";
+        }
+
+
+
+        #bread nav ul li:nth-child(3):after {
+            content: " ";
+        }
+
+
+#actil {
+    display: inline-block;
+    position: relative;
+    background-image: url("../styles/images/actIL.JPG");
+    height: 650px;
+    width: 460px;
+    top: 20px;
+    right: 20%;
+}
+
+#actilP {
+    display: inline-block;
+    position: relative;
+    background-image: url("../styles/images/actIL.JPG");
+    height: 650px;
+    width: 460px;
+    top: 20px;
+    right: -600px;
+}
+
+
+
+#textactil {
+    visibility: hidden;
+    padding-top: 60%;
+    padding-right: 37%;
+}
+
+
+#actil:hover #textactil {
+    visibility: visible;
+    background-color: #00000066;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease padding-top: 20%;
+    height: 375px;
+    width: 440px;
+}
+
+#textactil a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease
+}
+
+
+#newyear {
+    display: inline-block;
+    position: relative;
+    background-size: contain;
+    background-image: url("images/NewYear.JPG");
+    height: 400px;
+    width: 440px;
+    top: 50px;
+    right: 350px;
+}
+
+#newyeartext {
+    visibility: hidden;
+    padding-top: 40%;
+    padding-right: 12%;
+}
+
+
+#newyear:hover #newyeartext {
+    visibility: visible;
+    background-color: #00000066;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease padding-top: 20%;
+    height: 225px;
+    width: 440px;
+}
+
+#newyeartext a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease
+}
+
+
+#newworld {
+    position: relative;
+    background-image: url("images/NewWorld.JPG");
+    height: 500px;
+    width: 701px;
+    background-size: contain;
+    top: 100px;
+    right: 160px;
+}
+
+#newworldtext {
+    visibility: hidden;
+    padding-top: 30%;
+    padding-right: 20%;
+}
+
+
+#newworld:hover #newworldtext {
+    visibility: visible;
+    background-color: #00000066;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease padding-top: 20%;
+    height: 375px;
+    width: 560px;
+}
+
+#newworld a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease
+}
+
+
+#narcos {
+    position: relative;
+    background-size: contain;
+    background-image: url("images/narcos.JPG");
+    height: 600px;
+    width: 424px;
+    top: -450px;
+    right: 950px;
+    border-color: #73706a61;
+    border-style: solid;
+}
+
+#narcostext {
+    visibility: hidden;
+    padding-top: 75%;
+    padding-right: 25%;
+}
+
+
+#narcos:hover #narcostext {
+    visibility: visible;
+    background-color: #f3ebeb1c;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease padding-top: 20%;
+    height: 280px;
+    width: 320px;
+}
+
+#narcostext a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease
+}
+
+
+
+#hit {
+    position: relative;
+    background-image: url("images/hitlandpahe.JPG");
+    height: 400px;
+    width: 700px;
+    background-size: contain;
+    top: 100px;
+    right: 90px;
+}
+
+#hittext {
+    visibility: hidden;
+    padding-top: 20%;
+    padding-right: 7%;
+}
+
+
+#hit:hover #hittext {
+    visibility: visible;
+    background-color: #00000066;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease padding-top: 20%;
+    height: 375px;
+    width: 650px;
+}
+
+#hit a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease
+}
+
+
+#profile {
+    position: relative;
+    background-size: cover;
+    background-image: url("images/profile2.JPG");
+    height: 400px;
+    width: 650px;
+    top: -300px;
+    right: 830px;
+}
+
+#profiletext {
+    visibility: hidden;
+    padding-top: 25%;
+    padding-right: 32%;
+}
+
+
+#profile:hover #profiletext {
+    visibility: visible;
+    background-color: #00000063;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease padding-top: 20%;
+    height: 350px;
+    width: 490px;
+    padding-right: -40px;
+}
+
+#profiletext a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 2s ease;
+    -ms-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease
+}
+
+.titels {
+    font-size: 80px;
+    color: yellow;
+    font-weight: bold;
+}
+
+#actilT {
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    width: 450px;
+    right: 750px;
+    top: -500px;
+}
+
+#button {
+    position: absolute;
+    width: 190px;
+    height: 27px;
+    border-radius: 5px;
+    padding-right: 5px;
+    color: black;
+    padding-top: 5px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+
+#play {
+    margin-top: 20px;
+    visibility: visible;
+}
+
+
+
+#newworldT {
+    color: #ffffff;
+    position: relative;
+    width: 450px;
+    right: 800px;
+    top: -500px;
+}
+
+#newworldp {
+    position: relative;
+    background-image: url("images/NewWorld.JPG");
+    height: 500px;
+    width: 701px;
+    background-size: contain;
+    top: 90px;
+    right: 70px;
+}
+
+
+#youtube {
+    margin-top: 20px;
+}
+
+#narcosp {
+    position: relative;
+    background-image: url("images/narcos.JPG");
+    height: 650px;
+    width: 460px;
+    top: 10px;
+    right: 300px;
+    border-color: #73706a61;
+    border-style: solid;
+}
+
+#narcosT {
+    color: #ffffff;
+    position: relative;
+    width: 450px;
+    right: 800px;
+    top: -450px;
+}
+
+#new2018T {
+    color: #ffffff;
+    position: relative;
+    width: 450px;
+    right: 800px;
+    top: -400px;
+}
+
+#new2018p {
+    position: relative;
+    background-image: url("images/NewYear.JPG");
+    height: 500px;
+    width: 550px;
+    background-size: contain;
+    top: 50px;
+    ;
+    right: 200px;
+}
+
+#fullpages {
+    background-color: white;
+}
+
+#zoomtop a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff9f9;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+    #zoomtop a:hover {
+        color: #FFEB3B;
+    }
+
+
+#zoomtop {
+    position: relative;
+     top:10px;
+    right  :10px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+}
+
+    #zoomtop #goback {
+        float: right;
+        display: inline-block;
+    }
+
+#newworldzoom {
+    position: absolute;
+    background-image: url("images/NewWorld.JPG");
+    height: 500px;
+    width: 701px;
+    background-size: contain;
+    margin-top: 8%;
+    margin-right: 30%
+}
+
+#narcoszoom {
+    position: absolute;
+    background-size: contain;
+    background-image: url("images/narcos.JPG");
+    height: 600px;
+    width: 424px;
+    margin-top: 4%;
+    margin-right: 40%;
+}
+
+#actilzoom {
+    position: absolute;
+    background-image: url("../styles/images/actIL.JPG");
+    height: 650px;
+    width: 460px;
+    margin-top: 40px;
+    margin-right: 40%;
+}
+
+#newyearzoom {
+    position: absolute;
+    background-image: url("images/NewYear.JPG");
+    height: 500px;
+    width: 550px;
+    background-size: contain;
+    margin-top: 5%;
+    margin-right: 35%;
+}
